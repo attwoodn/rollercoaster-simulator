@@ -3,9 +3,17 @@ Summer 2018
 Rollercoaster Simulator
 
 
+========== Prerequisites ==========
+
+If you are in a Debian environment, please first install the freeglut3-dev package by running the following command:
+sudo apt install freeglut3-dev
+
+If you are not in a Debian environment, please install freeglut3 development packages through some alternative means.
+
+
 ============ Compiling ============
 
-the program can be compiled with the following command:
+After installing the prerequiste libraries, the program can be compiled with the following command:
 gcc -o rc_sim.o rollercoaster_sim.c -lGL -lGLU -lglut -lm
 
 
